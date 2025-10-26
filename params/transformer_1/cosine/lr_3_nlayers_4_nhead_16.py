@@ -36,8 +36,8 @@ params = {
     # "replace", "add", "multiply"
     "hypernet_noise_type_A": "add",
     "hypernet_noise_type_B": "add",
-    "hypernet_reduce_noise_alpha": True,
-    "hypernet_noise_alpha": 0.999,             # TODO Mid
+    "hypernet_reduce_noise_alpha": False,
+    "hypernet_noise_alpha": 0.0,             # TODO Mid
     "hypernet_use_batches": True,
     "hypernet_hidden_dim": 256,            # TODO Mid
     "hypernet_embeddings_dim": 64,
