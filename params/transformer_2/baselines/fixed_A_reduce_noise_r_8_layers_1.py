@@ -2,7 +2,7 @@ params = {
     # general params
     "glue_dataset_name": "cola",
     "model_name": "roberta-base", # here you need to adjust the path to the trained model
-    "use_hypernet": True,
+    "use_hypernet": False, #hypernet set to False for baseline calculation
 
     "layers_to_freeze": [
     ],
