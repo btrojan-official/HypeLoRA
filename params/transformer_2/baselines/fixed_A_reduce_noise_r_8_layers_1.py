@@ -58,6 +58,6 @@ params = {
 
     # filenames and else
     "results_dir": "./results/basic",
-    "num_runs": 3, 
+    "num_runs": 1, 
     "seed": 11,
 }
