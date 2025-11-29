@@ -160,6 +160,12 @@ def get_hypernet_on_last_layer_roberta(
                 adapter_name
             ] = nn.Identity()
 
+
+    # Freeze all lora_A matrices
+    for name, param in model.named_parameters():
+        if "lora_A" in name:
+            param.requires_grad = False
+
     for name, param in model.named_parameters():
         for layer in layers_to_freeze:
             if layer in str(name):
