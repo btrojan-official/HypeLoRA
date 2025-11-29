@@ -138,7 +138,6 @@ def run_experiment(params, id, device="cpu"):
         weight_decay=params["weight_decay"],
         disable_tqdm=params["disable_tqdm"],
         report_to=["wandb"],
-        _disable_auto_config=True,
     )
 
     callbacks=[
