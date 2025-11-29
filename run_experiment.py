@@ -46,7 +46,7 @@ def run_experiment(params, id, device="cpu"):
         name=f"{params['results_filename']}_{id}_{experiment_id}",
         settings=wandb.Settings(_disable_stats=True),
         config={
-            "fixed_A": params.get("hypernet_use_fixed_A", False), 
+            "fixed_A": params.get("hypernet_use_fixed_A", False),
             "reduce_noise": params.get("hypernet_reduce_noise_alpha", False),
             "lora_r": params.get("lora_r", 1),
             "layers_transformed": params.get("layers_to_transform", []),
@@ -137,7 +137,7 @@ def run_experiment(params, id, device="cpu"):
         optim=params["optim"],
         weight_decay=params["weight_decay"],
         disable_tqdm=params["disable_tqdm"],
-        report_to=[],
+        report_to=["wandb"],
     )
 
     callbacks=[
