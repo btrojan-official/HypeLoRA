@@ -1,7 +1,10 @@
 # HypeLoRA: Hypernetwork-Generated LoRA Adapters for Calibrated Language Model Fine-Tuning
 
-> **Bartosz Trojan & Filip Gębala** — Upper-Secondary Schools of Communications in Cracow
+[![arXiv](https://img.shields.io/badge/arXiv-2603.19278-b31b1b.svg)](https://arxiv.org/abs/2603.19278)
+[![Paper PDF](https://img.shields.io/badge/PDF-Download-red.svg)](https://arxiv.org/pdf/2603.19278.pdf)
 
+> **Bartosz Trojan & Filip Gębala** — *Upper-Secondary Schools of Communications in Cracow*  
+> 📄 **Paper:** [arXiv:2603.19278](https://arxiv.org/abs/2603.19278) | [Download PDF](https://arxiv.org/pdf/2603.19278.pdf)
 
 ![teaser.png](teaser.png)
 
